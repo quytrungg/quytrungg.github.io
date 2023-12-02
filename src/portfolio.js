@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Quy Trung",
   description:
-    "Final year CS student at the University of Science (HCMUS). Backend developer using Python (Django). Passionate with Data Science, enjoy analyzing data and building models.",
+    "Final year CS student at University of Science (HCMUS). Python Backend Developer at Saritasa Vietnam. Passionate with Data Science, enjoy analyzing data and building models.",
 };
 
 //Home Page
@@ -18,7 +18,7 @@ const greeting = {
   logo_name: "Quy Trung Mai",
   nickname: "Backend Developer",
   subTitle:
-    "Final year CS student at the University of Science (HCMUS). Backend developer using Python (Django). Passionate with Data Science, enjoy analyzing data and building models.",
+    "Final year CS student at University of Science (HCMUS). Python (Django) Backend Developer at Saritasa Vietnam. Passionate with Data Science, enjoy analyzing data and building models.",
   resumeLink:
     "https://drive.google.com/file/d/1l8SC3kaIUhMGupS2gdyOEw4x-IqOrDyk/view?usp=sharing",
   githubProfile: "https://github.com/quytrungg",
@@ -83,6 +83,63 @@ const skills = {
           },
         },
         {
+          skillName: "Django",
+          fontAwesomeClassname: "vscode-icons:file-type-django",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "FastAPI",
+          fontAwesomeClassname: "devicon:fastapi",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Flask",
+          fontAwesomeClassname: "devicon:flask",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "NodeJS",
+          fontAwesomeClassname: "simple-icons:nodedotjs",
+          style: {
+            color: "#339933",
+          },
+        },
+        {
+          skillName: "HTML",
+          fontAwesomeClassname: "simple-icons:html5",
+          style: {
+            color: "#E34F26",
+          },
+        },
+        {
+          skillName: "CSS",
+          fontAwesomeClassname: "fa-css3",
+          style: {
+            color: "#1572B6",
+          },
+        },
+      ],
+    },
+    {
+      title: "Database & Cloud Infrastructure",
+      fileName: "CloudInfraImg",
+      skills: [
+        "⚡ Experience working on multiple cloud platforms",
+        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
+        "⚡ Deploying deep learning models on cloud to use on mobile devices",
+        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+      ],
+      softwareSkills: [
+        {
           skillName: "PostgreSQL",
           fontAwesomeClassname: "simple-icons:postgresql",
           style: {
@@ -97,38 +154,12 @@ const skills = {
           },
         },
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
+          skillName: "MySQL",
+          fontAwesomeClassname: "devicon:mysql-wordmark",
           style: {
-            color: "#E34F26",
+            color: "#336791",
           },
         },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:nodedotjs",
-          style: {
-            color: "#339933",
-          },
-        },
-      ],
-    },
-    {
-      title: "Cloud Infrastructure - Architecture",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
-      ],
-      softwareSkills: [
         {
           skillName: "Docker",
           fontAwesomeClassname: "simple-icons:docker",
@@ -169,6 +200,46 @@ const skills = {
       ],
       softwareSkills: [
         {
+          skillName: "Python",
+          fontAwesomeClassname: "ion-logo-python",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Numpy",
+          fontAwesomeClassname: "devicon:numpy",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Pandas",
+          fontAwesomeClassname: "devicon:pandas",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Jupyter Notebook",
+          fontAwesomeClassname: "devicon:jupyter-wordmark",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Streamlit",
+          fontAwesomeClassname: "devicon:streamlit",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
           skillName: "Tensorflow",
           fontAwesomeClassname: "logos-tensorflow",
           style: {
@@ -181,14 +252,6 @@ const skills = {
           style: {
             backgroundColor: "white",
             color: "#D00000",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
           },
         },
       ],
@@ -205,7 +268,7 @@ const competitiveSites = {
       style: {
         color: "#F79F1B",
       },
-      profileLink: "https://leetcode.com/layman_brother/",
+      profileLink: "https://leetcode.com/quytrungg/",
     },
     {
       siteName: "HackerRank",
@@ -213,7 +276,7 @@ const competitiveSites = {
       style: {
         color: "#2EC866",
       },
-      profileLink: "https://www.hackerrank.com/layman_brother",
+      profileLink: "https://www.hackerrank.com/profile/quytrungg",
     },
     {
       siteName: "Kaggle",
@@ -221,7 +284,7 @@ const competitiveSites = {
       style: {
         color: "#20BEFF",
       },
-      profileLink: "https://www.kaggle.com/laymanbrother",
+      profileLink: "https://www.kaggle.com/quytrungmai",
     },
   ],
 };
@@ -350,6 +413,17 @@ const experience = {
             "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
           color: "#fc1f20",
         },
+        {
+          title: "Haskell Tutor",
+          company: "Freelance",
+          company_url: "https://github.com/quytrungg",
+          logo_path: "haskell.png",
+          duration: "March 2022 - June 2022",
+          location: "Ho Chi Minh city, Vietnam",
+          description:
+            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
+          color: "#fc1f20",
+        },
       ],
     },
     {
@@ -359,7 +433,7 @@ const experience = {
           title: "Python Developer Intern",
           company: "Saritasa Vietnam",
           company_url: "https://www.saritasa.vn/",
-          logo_path: "muffito_logo.png",
+          logo_path: "legato_logo.png",
           duration: "March 2023 - June 2023",
           location: "Ho Chi Minh city, Vietnam",
           description:
