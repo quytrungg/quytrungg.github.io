@@ -22,44 +22,51 @@ const greeting = {
   resumeLink:
     "https://drive.google.com/file/d/1l8SC3kaIUhMGupS2gdyOEw4x-IqOrDyk/view?usp=sharing",
   githubProfile: "https://github.com/quytrungg",
+  repositories: "https://github.com/quytrungg?tab=repositories",
 };
 
 const socialMediaLinks = [
   {
     name: "Github",
     link: "https://github.com/quytrungg",
-    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
+    fontAwesomeIcon: "fa-github",
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/quytrung-mai/",
-    fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
+    fontAwesomeIcon: "fa-linkedin-in",
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
     name: "YouTube",
     link: "https://www.youtube.com/@quytrungg",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
+    fontAwesomeIcon: "fa-youtube",
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
   {
     name: "Gmail",
     link: "mailto:albertmai1912@gmail.com",
-    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
+    fontAwesomeIcon: "fa-google",
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
     name: "Facebook",
     link: "https://www.facebook.com/quytrungmai.albertmai.1912/",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
+    fontAwesomeIcon: "fa-facebook-f",
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
+    link: "https://www.instagram.com/quytrunggg/",
+    fontAwesomeIcon: "fa-instagram",
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+  },
+  {
+    name: "Tiktok",
+    link: "https://www.tiktok.com/@quytrunggg",
+    fontAwesomeIcon: "fa-tiktok",
+    backgroundColor: "#000000", // Reference https://simpleicons.org/?q=instagram
   },
 ];
 
