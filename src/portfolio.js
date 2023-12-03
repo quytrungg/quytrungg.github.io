@@ -150,7 +150,7 @@ const skills = {
       title: "Database & Cloud Infrastructure",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Have experience working with RDBs such as PosgreSQL and MySQL and MongoDB for NoSQL.",
+        "⚡ Have experience working with RDBs such as PosgreSQL and MySQL along with NoSQL such as MongoDB.",
         "⚡ Manage packages with Docker and Docker Compose.",
         "⚡ Implement notification services using Firebase.",
         "⚡ CI/CD deployments with Kubernetes (k8s) and image storage with AWS (S3).",
@@ -391,7 +391,7 @@ const degrees = {
       subtitle: "Major in Physics",
       logo_path: "iu_logo.png",
       alt_name: "Le Hong Phong High School for the Gifted",
-      duration: "2017-2020",
+      duration: "2017 - 2020",
       descriptions: ["⚡ GPA: 8.9/10"],
       website_link: "http://www.thpt-lehongphong-tphcm.edu.vn/",
     },
