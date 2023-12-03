@@ -5,7 +5,7 @@
       "name": "Datathon",
       "createdAt": "2023-07-02T16:26:54Z",
       "url": "https://github.com/trungmai-saritasa/Datathon",
-      "description": "🔥",
+      "description": "🔥 Explore and analyze sales data to provide insightful dashboards and build models to predict business trends.",
       "isFork": false,
       "languages": [
         {
@@ -24,10 +24,10 @@
     },
     {
       "id": "R_kgDOG_vYHA",
-      "name": "MemoryApp",
+      "name": "Memory App",
       "createdAt": "2023-02-21T20:41:33Z",
       "url": "https://github.com/quytrungg/MemoryApp",
-      "description": "📦",
+      "description": "📦 Django fullstack application used to create and store visited places for memories.",
       "isFork": false,
       "languages": [
         {
@@ -46,10 +46,10 @@
     },
     {
       "id": "R_kgDOG0_8uQ",
-      "name": "NAVI",
+      "name": "NAVI E-Wallet",
       "createdAt": "2022-06-01T14:50:20Z",
       "url": "https://github.com/quytrungg/NAVI",
-      "description": "🌀",
+      "description": "🌀 Mobile application used to manage and transfer money online. Supported for both Android and IOS.",
       "isFork": false,
       "languages": [
         {
@@ -68,10 +68,10 @@
     },
     {
       "id": "R_kgDOGcPKSQ",
-      "name": "Spotify EDA",
+      "name": "Spotify Recommendation System",
       "createdAt": "2022-10-31T17:56:07Z",
       "url": "https://github.com/quytrungg/Final_Project_CSC14119",
-      "description": "⚙️",
+      "description": "⚙️ Analyze songs on Spotify to provide music charts and recommendation system.",
       "isFork": false,
       "languages": [
         {
@@ -93,7 +93,7 @@
       "name": "Course Registration System",
       "createdAt": "2021-03-01T06:36:41Z",
       "url": "https://github.com/quytrungg/CourseRegistrationCourse-20CLC11-Group02",
-      "description": "🚀 ",
+      "description": "🚀 Cloned Moodle platform for student's course registration and admin's course management.",
       "isFork": false,
       "languages": [
         {
@@ -111,7 +111,7 @@
       "name": "Todo App",
       "createdAt": "2022-06-02T08:31:51Z",
       "url": "https://github.com/quytrungg/todoApp",
-      "description": "🚀",
+      "description": "🚀 Simple application to create and update todo list.",
       "isFork": false,
       "languages": [
         {

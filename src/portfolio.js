@@ -87,6 +87,7 @@ const skills = {
         {
           skillName: "Python",
           fontAwesomeClassname: "ion-logo-python",
+          url: "https://www.python.org/",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
@@ -95,6 +96,7 @@ const skills = {
         {
           skillName: "Django",
           fontAwesomeClassname: "vscode-icons:file-type-django",
+          url: "https://www.djangoproject.com/",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
@@ -103,6 +105,7 @@ const skills = {
         {
           skillName: "FastAPI",
           fontAwesomeClassname: "devicon:fastapi",
+          url: "https://fastapi.tiangolo.com/",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
@@ -111,6 +114,7 @@ const skills = {
         {
           skillName: "Flask",
           fontAwesomeClassname: "devicon:flask",
+          url: "https://flask.palletsprojects.com/en/3.0.x/",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
@@ -119,6 +123,7 @@ const skills = {
         {
           skillName: "NodeJS",
           fontAwesomeClassname: "simple-icons:nodedotjs",
+          url: "https://nodejs.org/en",
           style: {
             color: "#339933",
           },
@@ -126,6 +131,7 @@ const skills = {
         {
           skillName: "HTML",
           fontAwesomeClassname: "simple-icons:html5",
+          url: "https://www.w3schools.com/html/",
           style: {
             color: "#E34F26",
           },
@@ -133,6 +139,7 @@ const skills = {
         {
           skillName: "CSS",
           fontAwesomeClassname: "fa-css3",
+          url: "https://www.w3schools.com/css/",
           style: {
             color: "#1572B6",
           },
@@ -151,7 +158,8 @@ const skills = {
       softwareSkills: [
         {
           skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
+          fontAwesomeClassname: "devicon:postgresql",
+          url: "https://www.postgresql.org/",
           style: {
             color: "#336791",
           },
@@ -159,6 +167,7 @@ const skills = {
         {
           skillName: "MongoDB",
           fontAwesomeClassname: "simple-icons:mongodb",
+          url: "https://www.mongodb.com/",
           style: {
             color: "#47A248",
           },
@@ -166,6 +175,7 @@ const skills = {
         {
           skillName: "MySQL",
           fontAwesomeClassname: "devicon:mysql-wordmark",
+          url: "https://www.mysql.com/",
           style: {
             color: "#336791",
           },
@@ -173,6 +183,7 @@ const skills = {
         {
           skillName: "Docker",
           fontAwesomeClassname: "simple-icons:docker",
+          url: "https://www.docker.com/",
           style: {
             color: "#1488C6",
           },
@@ -180,6 +191,7 @@ const skills = {
         {
           skillName: "Kubernetes",
           fontAwesomeClassname: "simple-icons:kubernetes",
+          url: "https://kubernetes.io/",
           style: {
             color: "#326CE5",
           },
@@ -187,6 +199,7 @@ const skills = {
         {
           skillName: "Firebase",
           fontAwesomeClassname: "simple-icons:firebase",
+          url: "https://firebase.google.com/",
           style: {
             color: "#FFCA28",
           },
@@ -194,6 +207,7 @@ const skills = {
         {
           skillName: "AWS",
           fontAwesomeClassname: "simple-icons:amazonaws",
+          url: "https://aws.amazon.com/",
           style: {
             color: "#FF9900",
           },
@@ -212,6 +226,7 @@ const skills = {
         {
           skillName: "Jupyter Notebook",
           fontAwesomeClassname: "devicon:jupyter-wordmark",
+          url: "https://jupyter.org/",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
@@ -220,6 +235,7 @@ const skills = {
         {
           skillName: "Numpy",
           fontAwesomeClassname: "devicon:numpy",
+          url: "https://numpy.org/",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
@@ -228,6 +244,7 @@ const skills = {
         {
           skillName: "Pandas",
           fontAwesomeClassname: "devicon:pandas",
+          url: "https://pandas.pydata.org/",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
@@ -236,6 +253,7 @@ const skills = {
         {
           skillName: "Streamlit",
           fontAwesomeClassname: "devicon:streamlit",
+          url: "https://streamlit.io/",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
@@ -244,6 +262,7 @@ const skills = {
         {
           skillName: "Scikit Learn",
           fontAwesomeClassname: "devicon:scikitlearn",
+          url: "https://scikit-learn.org/stable/#",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
@@ -252,6 +271,7 @@ const skills = {
         {
           skillName: "Tensorflow",
           fontAwesomeClassname: "logos-tensorflow",
+          url: "https://www.tensorflow.org/",
           style: {
             backgroundColor: "transparent",
           },
@@ -259,6 +279,7 @@ const skills = {
         {
           skillName: "Keras",
           fontAwesomeClassname: "simple-icons:keras",
+          url: "https://keras.io/",
           style: {
             backgroundColor: "white",
             color: "#D00000",
@@ -278,6 +299,7 @@ const skills = {
         {
           skillName: "Java",
           fontAwesomeClassname: "devicon:java",
+          url: "https://www.java.com/en/",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
@@ -286,6 +308,7 @@ const skills = {
         {
           skillName: "Hadoop",
           fontAwesomeClassname: "devicon:hadoop",
+          url: "https://hadoop.apache.org/",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
@@ -294,6 +317,7 @@ const skills = {
         {
           skillName: "Apache Spark",
           fontAwesomeClassname: "devicon:apachespark-wordmark",
+          url: "https://spark.apache.org/",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
@@ -302,6 +326,7 @@ const skills = {
         {
           skillName: "Apache Solr",
           fontAwesomeClassname: "logos:solr",
+          url: "https://solr.apache.org/",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
@@ -319,8 +344,8 @@ const competitiveSites = {
       siteName: "LeetCode",
       iconifyClassname: "simple-icons:leetcode",
       style: {
-        // color: "#F79F1B",
-        color: chosenTheme.jacketColor,
+        color: "#F79F1B",
+        // color: chosenTheme.jacketColor,
       },
       profileLink: "https://leetcode.com/quytrungg/",
     },
@@ -328,8 +353,8 @@ const competitiveSites = {
       siteName: "HackerRank",
       iconifyClassname: "simple-icons:hackerrank",
       style: {
-        // color: "#2EC866",
-        color: chosenTheme.jacketColor,
+        color: "#2EC866",
+        // color: chosenTheme.jacketColor,
       },
       profileLink: "https://www.hackerrank.com/profile/quytrungg",
     },
@@ -337,8 +362,8 @@ const competitiveSites = {
       siteName: "Kaggle",
       iconifyClassname: "simple-icons:kaggle",
       style: {
-        // color: "#20BEFF",
-        color: chosenTheme.jacketColor,
+        color: "#20BEFF",
+        // color: chosenTheme.jacketColor,
       },
       profileLink: "https://www.kaggle.com/quytrungmai",
     },
@@ -437,7 +462,7 @@ const experience = {
   title: "Experience",
   subtitle: "Internship & Working Experience",
   description:
-    "I am currently a Python Backend Developer at Saritasa Vietnam. Besides that, I have done some internships, part-time / freelance jobs and extracurricular activities.",
+    "I am currently a Python Backend Developer at Saritasa Vietnam. In addition to that, I have engaged in internships, part-time / freelance jobs and extracurricular activities.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -490,7 +515,7 @@ const experience = {
           duration: "March 2023 - June 2023",
           location: "Ho Chi Minh city, Vietnam",
           description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
+            "Learn Python from fundamental to high-level concepts, including asynchronous, multi-threading and multi-processing programming along with coroutines. Build internal project using Django and Django Rest Framework. Improve code style, learn to implement beautiful code and soft skills such as teamwork and task management.",
           color: "#9b1578",
         },
         {
@@ -501,7 +526,7 @@ const experience = {
           duration: "August 2022 - February 2023",
           location: "Ho Chi Minh city, Vietnam",
           description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
+            "Assosiate in building websites and API services in the Social Suite multi-project using ReactJS and NodeJS. Implement helpful tools such as user behaviour tracking application and single sign-on (SSO) plugin.",
           color: "#9b1578",
         },
       ],
@@ -517,7 +542,7 @@ const experience = {
           duration: "August 2021 - May 2022",
           location: "Ho Chi Minh city, Vietnam",
           description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
+            "Responsible for planning department's OKRs, sketch strategies for upcoming events and provide financial estimating report. Research ideas and contents for multimedia promotion. Organize technical workshops for team members.",
           color: "#4285F4",
         },
         {
@@ -525,10 +550,10 @@ const experience = {
           company: "SAB in HCMUS",
           company_url: "https://www.facebook.com/sab.ctda/",
           logo_path: "15.png",
-          duration: "May 2021 - July 2021",
+          duration: "May 2021 - August 2021",
           location: "Ho Chi Minh city, Vietnam",
           description:
-            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
+            "Participate in department and organization meetings. Brainstorm for ideas to promote events. Learn multimedia skills such as content writing, photography and videography. Take role in organizing student's events.",
           color: "#D83B01",
         },
       ],
