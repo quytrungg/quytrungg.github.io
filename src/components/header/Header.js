@@ -4,6 +4,7 @@ import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
 import { greeting, settings } from "../../portfolio.js";
 import SeoHeader from "../seoHeader/SeoHeader";
+import mainImage from "../../assests/images/14.png";
 
 const onMouseEnter = (event, color) => {
   const el = event.target;
@@ -25,7 +26,7 @@ class Header extends Component {
         <div>
           <header className="header">
             <NavLink to={link} tag={Link} className="logo">
-              <span style={{ color: theme.text, fontWeight: "bold" }}>
+              {/* <span style={{ color: theme.text, fontWeight: "bold" }}>
                 &lt;
               </span>
               <span className="logo-name" style={{ color: theme.text }}>
@@ -33,7 +34,12 @@ class Header extends Component {
               </span>
               <span style={{ color: theme.text, fontWeight: "bold" }}>
                 /&gt;
-              </span>
+              </span> */}
+              <img
+                src={mainImage}
+                alt="Trung Q. Mai logo"
+                style={{ backgroundColor: "transparent" }}
+              ></img>
             </NavLink>
             <input className="menu-btn" type="checkbox" id="menu-btn" />
             <label className="menu-icon" htmlFor="menu-btn">

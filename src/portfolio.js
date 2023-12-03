@@ -1,4 +1,5 @@
 /* Change this file to get your personal Porfolio */
+import { chosenTheme } from "./theme";
 
 // Website related settings
 const settings = {
@@ -9,7 +10,7 @@ const settings = {
 const seo = {
   title: "Quy Trung",
   description:
-    "Final year CS student at University of Science (HCMUS). Python Backend Developer at Saritasa Vietnam. Passionate with Data Science, enjoy analyzing data and building models.",
+    "Final year CS student at University of Science (HCMUS). Python (Django) Backend Developer at Saritasa Vietnam. Passionate with Data Science, enjoy analyzing data and building models.",
 };
 
 //Home Page
@@ -23,6 +24,7 @@ const greeting = {
     "https://drive.google.com/file/d/1l8SC3kaIUhMGupS2gdyOEw4x-IqOrDyk/view?usp=sharing",
   githubProfile: "https://github.com/quytrungg",
   repositories: "https://github.com/quytrungg?tab=repositories",
+  currentProject: "https://datacypher.streamlit.app/",
 };
 
 const socialMediaLinks = [
@@ -76,9 +78,10 @@ const skills = {
       title: "Backend Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Build web application services using Django, Django Rest Framework and FastAPI.",
+        "⚡ Implement forms and email templates with HTML and CSS.",
+        "⚡ Provide local services for IOT solutions with Flask.",
+        "⚡ Assosisate in working on NodeJS projects using ExpressJS and NestJS frameworks",
       ],
       softwareSkills: [
         {
@@ -140,10 +143,10 @@ const skills = {
       title: "Database & Cloud Infrastructure",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Have experience working with RDBs such as PosgreSQL and MySQL and MongoDB for NoSQL.",
+        "⚡ Manage packages with Docker and Docker Compose.",
+        "⚡ Implement notification services using Firebase.",
+        "⚡ CI/CD deployments with Kubernetes (k8s) and image storage with AWS (S3).",
       ],
       softwareSkills: [
         {
@@ -201,14 +204,14 @@ const skills = {
       title: "Data Science & AI",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ Explore and analyze raw data using Numpy and Pandas.",
+        "⚡ Provide insightful dashboards with Jupyter Notebook and Streamlit.",
+        "⚡ Build predictive models using multiple machine learning and deep learning libraries.",
       ],
       softwareSkills: [
         {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
+          skillName: "Jupyter Notebook",
+          fontAwesomeClassname: "devicon:jupyter-wordmark",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
@@ -231,16 +234,16 @@ const skills = {
           },
         },
         {
-          skillName: "Jupyter Notebook",
-          fontAwesomeClassname: "devicon:jupyter-wordmark",
+          skillName: "Streamlit",
+          fontAwesomeClassname: "devicon:streamlit",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
           },
         },
         {
-          skillName: "Streamlit",
-          fontAwesomeClassname: "devicon:streamlit",
+          skillName: "Scikit Learn",
+          fontAwesomeClassname: "devicon:scikitlearn",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
@@ -263,6 +266,49 @@ const skills = {
         },
       ],
     },
+    {
+      title: "Big Data Processing",
+      fileName: "DesignImg",
+      skills: [
+        "⚡ Learn to store and manage distributed data with Hadoop and HDFS.",
+        "⚡ Process data streams using Apache Spark.",
+        "⚡ Research about search engines such as Apache Solr.",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Java",
+          fontAwesomeClassname: "devicon:java",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Hadoop",
+          fontAwesomeClassname: "devicon:hadoop",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Apache Spark",
+          fontAwesomeClassname: "devicon:apachespark-wordmark",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Apache Solr",
+          fontAwesomeClassname: "logos:solr",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+      ],
+    },
   ],
 };
 
@@ -273,7 +319,8 @@ const competitiveSites = {
       siteName: "LeetCode",
       iconifyClassname: "simple-icons:leetcode",
       style: {
-        color: "#F79F1B",
+        // color: "#F79F1B",
+        color: chosenTheme.jacketColor,
       },
       profileLink: "https://leetcode.com/quytrungg/",
     },
@@ -281,7 +328,8 @@ const competitiveSites = {
       siteName: "HackerRank",
       iconifyClassname: "simple-icons:hackerrank",
       style: {
-        color: "#2EC866",
+        // color: "#2EC866",
+        color: chosenTheme.jacketColor,
       },
       profileLink: "https://www.hackerrank.com/profile/quytrungg",
     },
@@ -289,7 +337,8 @@ const competitiveSites = {
       siteName: "Kaggle",
       iconifyClassname: "simple-icons:kaggle",
       style: {
-        color: "#20BEFF",
+        // color: "#20BEFF",
+        color: chosenTheme.jacketColor,
       },
       profileLink: "https://www.kaggle.com/quytrungmai",
     },
@@ -305,9 +354,10 @@ const degrees = {
       alt_name: "HCMUS",
       duration: "2020 - 2024",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ GPA: 3.75/4",
+        "⚡ I have studied software engineering fundamentals such as Data Structures & Algorithm, OOP, Database, Computer Networks and OS.",
+        "⚡ I have learned about Data Science process along with Machine Learning & Deep Learning concepts.",
+        "⚡ I was selected for Freshman Full-Ride Scholarship which is given to top 1% student in the faculty.",
       ],
       website_link: "https://hcmus.edu.vn/",
     },
@@ -317,11 +367,7 @@ const degrees = {
       logo_path: "iu_logo.png",
       alt_name: "Le Hong Phong High School for the Gifted",
       duration: "2017-2020",
-      descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
-      ],
+      descriptions: ["⚡ GPA: 8.9/10"],
       website_link: "http://www.thpt-lehongphong-tphcm.edu.vn/",
     },
   ],
@@ -391,7 +437,7 @@ const experience = {
   title: "Experience",
   subtitle: "Internship & Working Experience",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "I am currently a Python Backend Developer at Saritasa Vietnam. Besides that, I have done some internships, part-time / freelance jobs and extracurricular activities.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -406,7 +452,7 @@ const experience = {
           duration: "June 2023 - Present",
           location: "Ho Chi Minh city, Vietnam",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+            "Build web application services using Django with RESTful API. Participate in real-world projects and implement infrastructures for databases and cloud services. Work with multiple teams (Frontend, QA) and learn new technologies in backend development.",
           color: "#0879bf",
         },
         {
@@ -417,7 +463,7 @@ const experience = {
           duration: "October 2022 - February 2023",
           location: "Ho Chi Minh city, Vietnam",
           description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
+            "Algorithmics is an international coding school for children from age 5 to 17. Assosiate in teaching Python for children from 10 to 15 with full english. Responsible for student tech supports when needed.",
           color: "#fc1f20",
         },
         {
@@ -428,7 +474,7 @@ const experience = {
           duration: "March 2022 - June 2022",
           location: "Ho Chi Minh city, Vietnam",
           description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
+            "Freelance job in Sophomore year. Teach basic programming, data structures and algorithms using Haskell for a business analyst student. Provide assistance for labs and projects within the course.",
           color: "#fc1f20",
         },
       ],
@@ -460,6 +506,33 @@ const experience = {
         },
       ],
     },
+    {
+      title: "Extracurricular Activities",
+      experiences: [
+        {
+          title: "Head of Media Department",
+          company: "SAB in HCMUS",
+          company_url: "https://www.facebook.com/sab.ctda/",
+          logo_path: "15.png",
+          duration: "August 2021 - May 2022",
+          location: "Ho Chi Minh city, Vietnam",
+          description:
+            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
+          color: "#4285F4",
+        },
+        {
+          title: "Media Department Intern",
+          company: "SAB in HCMUS",
+          company_url: "https://www.facebook.com/sab.ctda/",
+          logo_path: "15.png",
+          duration: "May 2021 - July 2021",
+          location: "Ho Chi Minh city, Vietnam",
+          description:
+            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
+          color: "#D83B01",
+        },
+      ],
+    },
   ],
 };
 
@@ -467,7 +540,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects vary in both software engineering and data science, involving multiple technologies.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -496,7 +569,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "9.jpg",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available on many social media platforms. You can DM me, I will reply within 24 hours. I can help you with topics in software engineering and data science.",
   },
   blogSection: {
     // title: "Blogs",
