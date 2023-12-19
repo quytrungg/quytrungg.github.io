@@ -150,7 +150,7 @@ const skills = {
       title: "Database & Cloud Infrastructure",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Have experience working with RDBs such as PosgreSQL and MySQL along with NoSQL such as MongoDB.",
+        "⚡ Have experience working with RDBs such as PostgreSQL and MySQL along with NoSQL such as MongoDB.",
         "⚡ Manage packages with Docker and Docker Compose.",
         "⚡ Implement notification services using Firebase.",
         "⚡ CI/CD deployments with Kubernetes (k8s) and image storage with AWS (S3).",
