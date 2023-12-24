@@ -5,6 +5,7 @@ import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import FeelingProud from "./FeelingProud";
+import resumeLink from "../../assests/images/MaiQuyTrung_CV.pdf";
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -33,7 +34,7 @@ export default function Greeting(props) {
                 <Button
                   text="⭐ See My Resume"
                   newTab={true}
-                  href={greeting.resumeLink}
+                  href={resumeLink}
                   theme={theme}
                   className="portfolio-repo-btn"
                 />
